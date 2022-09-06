@@ -1,0 +1,16 @@
+
+.header {
+    background-color: #dbbccc;
+}
+
+
+
+#index-form {
+    display: flex;
+    justify-content: center;
+}
+
+#suggestion-textbox {
+    width: 200px;
+    height: 200px;
+}

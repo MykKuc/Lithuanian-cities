@@ -2,12 +2,13 @@
 <html lang="en">
 
 <head>
+    <link href="styles/index.css" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Cities</title>
 </head>
 
 <body>
-<header>
+<header class="header">
     <h1>Lithuanian cities</h1>
     <nav>
         <a href="vilnius.html">Vilnius </a>
@@ -16,9 +17,8 @@
         <a href="siauliai.html">Siauliai </a>
     </nav>
 </header>
+
 <main>
-
-
     <section>
         <p>List of the cities by population in Lithuania: </p>
         <table>
@@ -58,7 +58,15 @@
         </table>
     </section>
 
-
+        <sectio id="index-form">
+        <form method="post" >
+            <label>Name</label>
+            <input type="text">
+            <label>Suggestion</label>
+            <input id="suggestion-textbox" type="text">
+            <button>Submit</button>
+        </form>
+    </sectio>
 
 </main>
 
