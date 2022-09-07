@@ -13,12 +13,12 @@ ul {
     list-style-type: square;
 }
 
-.index-flexbox-mayor {
+.kaunas-flexbox-mayor {
     display: flex;
     justify-content: center;
 }
 
-.index-flexbox-mayor1 {
+.kaunas-flexbox-mayor1 {
     border-style: solid;
     border-width: thin;
     font-family: 'Roboto', sans-serif;
