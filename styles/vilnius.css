@@ -1,0 +1,23 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+
+.vilnius-flexbox-mayor {
+    display: flex;
+    justify-content: space-around;
+}
+
+.vilnius-flexbox-mayor1 {
+    border-style: solid;
+    border-width: thin;
+    background-color: #dbbccc;
+}
+
+#vilnius-mayor-pic {
+    border-style: solid;
+    border-width: thin;
+}
