@@ -1,10 +1,13 @@
 
+
+/* The font of the page */
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     font-size: medium;
 }
 
+/* Style of the list */
 li {
     list-style-type: square;
 }
@@ -13,11 +16,13 @@ li {
 .klaipeda-flexbox-mayor {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 0;
 }
 
 .klaipeda-flexbox-mayor1 {
     border-style: solid;
     border-width: thin;
+    background-color: #dbbccc;
 }
 
 #klaipeda-mayor-pic {
@@ -25,4 +30,36 @@ li {
     height: 400px;
     border-style: solid;
     border-width: thin;
+}
+
+/* Klaipeda arms and logo */
+
+.klaipeda-arms-logo {
+    display: flex;
+    justify-content: space-around;
+    background-color: #b0adb8;
+}
+
+#klaipeda-coat-arm-img {
+    width: 400px;
+    height: 400px;
+
+    border-style: solid;
+    border-width: thin;
+}
+
+#klaipeda-logo-img {
+    width: 400px;
+    height: 400px;
+    border-style: solid;
+    border-width: thin;
+
+}
+
+/* Klaipeda video */
+
+#klaipeda-video-section {
+    text-align: center;
+    background-color: #ccd2e0;
+    margin-top: 0;
 }

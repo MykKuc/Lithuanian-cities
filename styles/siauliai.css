@@ -4,3 +4,52 @@ body {
     font-weight: bolder;
     font-size: medium;
 }
+
+
+/* Mayor */
+.siauliai-flexbox-mayor {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+
+.siauliai-flexbox-mayor1 {
+    border-style: solid;
+    border-width: thin;
+    background-color: #dbbccc;
+}
+
+#siauliai-mayor-pic {
+    width: 600px;
+    height: 400px;
+    border-style: solid;
+    border-width: thin;
+}
+
+/* arms and logo styling */
+.siauliai-arms-logo {
+    display: flex;
+    justify-content: space-around;
+    background-color: #b0adb8;
+}
+
+#siauliai-coat-arm-img {
+    width: 400px;
+    height: 400px;
+    border-style: solid;
+    border-width: thin;
+}
+
+#siauliai-logo-img {
+    width: 400px;
+    height: 400px;
+    border-style: solid;
+    border-width: thin;
+}
+
+/* video section */
+#siauliai-video-section {
+    text-align: center;
+    background-color: #ccd2e0;
+    margin-top: 0;
+}
